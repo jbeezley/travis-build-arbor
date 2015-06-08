@@ -15,7 +15,7 @@ install:
 
 before_install:
   - eval "$(curl https://data.kitware.com/api/v1/file/55735da88d777f649a9ba181/download | /bin/bash)"
-  - eval "$(travis-install 556bd0c08d777f649a9ba139)"
+  - eval "$(travis-install 5575dc8c8d777f649a9ba193)"
 
 script:
   - ./test.sh
