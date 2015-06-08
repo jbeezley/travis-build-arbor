@@ -9,7 +9,7 @@ import requests
 home = os.path.expanduser('~')
 name = os.environ['name']
 version = os.environ['version']
-url = os.environ['url']
+url = os.environ.get('url')
 prefix = os.path.join(home, os.environ['prefix'])
 env = [l.strip() for l in open('env').readlines() if l.strip()]
 
