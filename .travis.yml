@@ -24,7 +24,7 @@ script:
 
 env:
   global:
-    - prefix=local/R-packages
+    - prefix=local
     - name=aRbor-packages
     - version=1.0.0
     - package_depends='["556bd0c08d777f649a9ba139"]'
